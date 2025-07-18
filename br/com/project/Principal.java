@@ -5,9 +5,6 @@ public class Principal {
         Filme meuFilme = new Filme();
         meuFilme.nome = "Poderoso Chefão";
         meuFilme.anoDeLancamento = 1972;
-        meuFilme.incluidoNoPlano = true;
-        meuFilme.SomaDasAvaliacoes = 9.2;
-        meuFilme.totalDeAvaliacoes = 10000;
         meuFilme.duracaoEmMinutos = 175;
 
         // Exibe a ficha técnica do filme
@@ -17,9 +14,9 @@ public class Principal {
         meuFilme.avalia(8);
         meuFilme.avalia(5);
         meuFilme.avalia(10);
-        System.out.println(meuFilme.SomaDasAvaliacoes);
-        System.out.println(meuFilme.totalDeAvaliacoes);
+        System.out.println(meuFilme.getTotalDeAvaliacoes());
 
+        System.out.println(meuFilme.pegaMedia());
         System.out.println(meuFilme.pegaMedia());
     }
 }
