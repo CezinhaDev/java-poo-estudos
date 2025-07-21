@@ -1,3 +1,4 @@
+package DesafioPratica;
 public class Pessoa {
     public static void main(String[] args) {
         String saudacao = "Olá, Mundo!";

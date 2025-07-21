@@ -1,3 +1,4 @@
+package DesafioPratica;
 public class Principal {
     public static void main(String[] args) {
         Musica minhaMusica = new Musica();// Cria uma instância da classe Musica
